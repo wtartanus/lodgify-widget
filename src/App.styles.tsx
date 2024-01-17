@@ -9,5 +9,7 @@ export const AppContainer = styled.div`
 
 export const WidgetOverlay = styled.div`
     background-color: rgba(211, 211, 211, .3);
-    padding: 2rem 1rem .5rem 1rem;
+    padding: 4rem 3rem 2rem 3rem;
+    width: 70vw;
+    height: 70vh;
 `;
