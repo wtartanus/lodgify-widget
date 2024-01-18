@@ -6,5 +6,10 @@ export const Container = styled.div`
     border: 1px solid gray;
     border-radius: 7px;
     background-color: #fff;
-    padding: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+`;
+
+export const Header = styled.div`
+    padding: 0 2rem;
 `;

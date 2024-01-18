@@ -12,4 +12,5 @@ export const WidgetOverlay = styled.div`
     padding: 4rem 3rem 2rem 3rem;
     width: 70vw;
     height: 70vh;
+    box-sizing: border-box;
 `;

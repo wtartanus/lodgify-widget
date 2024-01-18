@@ -1,7 +1,11 @@
-import { Container } from './Widget.styles';
+import { Container, Header } from './Widget.styles';
 
 export function Widget() {
   return (
-    <Container></Container>
+    <Container>
+        <Header>
+            <h3>Lodgify Grouped Tasks</h3>
+        </Header>
+    </Container>
   );
 }
