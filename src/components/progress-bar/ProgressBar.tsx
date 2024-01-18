@@ -9,7 +9,7 @@ interface Props {
 export const ProgressBar = ({ progress }: Props) => {
     return (
       <Container>
-        <Progress $progress={progress}>{progress}%</Progress>
+        <Progress $progress={progress} data-testid="progress-bar">{progress}%</Progress>
       </Container>
     );
 };
