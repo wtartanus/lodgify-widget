@@ -14,12 +14,12 @@ export const Progress = styled.div<{
   }>`
   height: 100%;
   width: ${props => props.$progress}%;
-  background-color: cadetblue;
+  background-color: ${ props => props.$progress === 0 ? 'transparent' : 'cadetblue'};
   border-radius: ${BORDER_RADIUS};
   transition: width 0.3s ease-in-out;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: white;
-  padding: .2rem 1rem;
+  color: ${ props => props.$progress === 0 ? 'gray' : 'white'};
+  padding: .2rem 2rem;
 `;

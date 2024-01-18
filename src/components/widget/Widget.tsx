@@ -6,7 +6,7 @@ export function Widget() {
     <Container>
         <Header>
             <h3>Lodgify Grouped Tasks</h3>
-            <ProgressBar progress={75} />
+            <ProgressBar progress={10} />
         </Header>
     </Container>
   );
