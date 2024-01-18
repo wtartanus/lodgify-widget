@@ -1,8 +1,8 @@
 import { Container, Progress } from "./ProgressBar.styles";
+import { Range } from "../../utilityTypes";
 
-// TODO: should be possible to enter only numbers between 0 & 100
 interface Props {
-    progress: number;
+    progress: Range<0, 101>
 }
 
 // TODO: how should look progress if 0%
